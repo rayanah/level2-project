@@ -9,7 +9,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /department
+      - path: /
         backend:
           serviceName: department
           servicePort: 80
