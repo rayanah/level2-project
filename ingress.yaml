@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   name: project-ingress
-  namespace: project-level2
+  namespace: jenkins
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
