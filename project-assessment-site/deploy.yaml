@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: project-assessment-site-service
-        image: rayanah/project-assessment-site-service:latest
+        image: rayanah/project-assessment-site-service:v1
         ports:
         - containerPort: 80
