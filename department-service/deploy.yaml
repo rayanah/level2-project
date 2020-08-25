@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: department-service
-        image: rayanah/department-service
+        image: rayanah/department-service:latest
         ports:
         - containerPort: 80
