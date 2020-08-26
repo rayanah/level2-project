@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: person-service
-        image: rayanah/person-service:v1
+        image: rayanah/person-service
         ports:
         - containerPort: 80
