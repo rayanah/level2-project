@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: office-service
-        image: rayanah/office-service:v1
+        image: rayanah/office-service
         ports:
         - containerPort: 80
