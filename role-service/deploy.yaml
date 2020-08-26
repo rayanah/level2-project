@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: role-service
-        image: rayanah/role-service:v1
+        image: rayanah/role-service
         ports:
         - containerPort: 80
