@@ -1,20 +1,31 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: project-ingress
-  namespace: jenkins
+  name: webapp
+  namespace: test
   annotations:
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
   - http:
       paths:
-      - path: /department
+      - path: /office
         backend:
-          serviceName: department
+          serviceName: office-service
           servicePort: 80
       - path: /
         backend:
           serviceName: project-assessment-site-service
           servicePort: 80
-
+      - path: /role
+        backend:
+          serviceName: role-service
+          servicePort: 80
+      - path: /department
+        backend:
+          serviceName: department-service
+          servicePort: 80
+      - path: /person
+        backend:
+          serviceName: person-service
+          servicePort: 80
