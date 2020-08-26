@@ -35,7 +35,7 @@ spec:
     CREDS = credentials('rayanah_docker_tocker')
     DOCKER_NAMESPACE = 'rayanah'
     SERVICE_NAME = 'office-service'
-    TOKEN=credentials('68248c47-ebfb-4d27-a9d3-5d759c957eb3')
+    TOKEN=credentials('d9d3974b-9f20-4158-ab05-a903f074ae8a')
   }
   stages {
       stage("Build") {
